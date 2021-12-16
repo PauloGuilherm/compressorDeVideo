@@ -1,4 +1,3 @@
-# compressorDeVideo
+## compressorDeVideo
 ## compressor de vídeo utilizando NodeJS
-
-## Projeto feito com foco no estudo de NodeJS utilizando o FFmpeg
+# Para utilização do projeto é necessário o download dos arquivos, nomear os vídeos em ordem numérica e guardá-los na pasta videos
