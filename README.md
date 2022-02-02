@@ -1,6 +1,6 @@
 ## compressorDeVideo
 ## compressor de vídeo utilizando NodeJS
-# Para utilização do projeto é necessário ter o NodeJS instalado, o download dos arquivos, nomear os vídeos em ordem numérica e guardá-los na pasta "src"
+# Para utilização do projeto é necessário ter o NodeJS instalado, o download dos arquivos, download do FFmpeg(https://ffmpeg.org/download.html), nomear os vídeos em ordem numérica e guardá-los na pasta "src"
 
 ## Sobre o projeto:
 # Ele lê os vídeos que estiverem dentro da pasta "src" e salva 3 cópias e cada uma com uma resolução diferente, dentro da pasta "resultado", que se localiza dentro de "src"
