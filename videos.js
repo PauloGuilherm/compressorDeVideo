@@ -2,6 +2,7 @@ const { spawn } = require('child_process');
 
 const parent = process.argv[2];
 let videos = [];
+const resultado = "./src/resultado"
 
 if(process.argv[2]){
 
@@ -19,6 +20,7 @@ if(process.argv[2]){
 
 function resize(video,quality){
     const p = new Promise((resolve,reject)=>{
+ 
         const ffmpeg = spawn('./ffmpeg/bin/ffmpeg',[
             '-i',
             `${parent}/${video}.mp4`,
